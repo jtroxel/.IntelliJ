@@ -28,13 +28,13 @@
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
-  <ADDITIONAL_INDENT_OPTIONS fileType="scala">
-    <option name="INDENT_SIZE" value="2" />
-    <option name="TAB_SIZE" value="2" />
-  </ADDITIONAL_INDENT_OPTIONS>
-  <ADDITIONAL_INDENT_OPTIONS fileType="txt">
+  <ADDITIONAL_INDENT_OPTIONS fileType="tpl">
     <option name="INDENT_SIZE" value="2" />
   </ADDITIONAL_INDENT_OPTIONS>
+  <codeStyleSettings language="ECMA Script Level 4">
+    <option name="BLANK_LINES_AROUND_METHOD" value="0" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+  </codeStyleSettings>
   <codeStyleSettings language="GSP">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
@@ -75,6 +75,13 @@
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="8" />
       <option name="TAB_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Scala">
+    <option name="BLANK_LINES_AROUND_METHOD" value="0" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="XML">

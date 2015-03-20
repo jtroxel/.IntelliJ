@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<keymap version="1" name="JT Emacs" parent="Emacs">
+<keymap version="1" name="JT Emacs Mac" parent="Emacs">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="alt C" />
-    <keyboard-shortcut first-keystroke="alt W" />
     <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="W" />
     <keyboard-shortcut first-keystroke="control C" />
+    <keyboard-shortcut first-keystroke="meta W" />
+    <keyboard-shortcut first-keystroke="meta C" />
   </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="shift DELETE" />
@@ -43,9 +44,12 @@
   <action id="Console.History.BrowseTW">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="B" />
   </action>
+  <action id="DatabaseView.CopyAction" />
   <action id="Diagram.SelectAll" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="control C" />
+    <keyboard-shortcut first-keystroke="meta W" />
+    <keyboard-shortcut first-keystroke="meta C" />
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="control W" />
@@ -61,12 +65,37 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="control W" />
   </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="control DELETE" />
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
+  <action id="EditorDuplicate" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="alt F" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="control F" />
+    <keyboard-shortcut first-keystroke="meta RIGHT" />
+  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="PAGE_DOWN" />
   </action>
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="PAGE_UP" />
     <keyboard-shortcut first-keystroke="alt V" />
+  </action>
+  <action id="EditorPasteFromX11">
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="shift meta V" />
+  </action>
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift control alt V" />
+    <keyboard-shortcut first-keystroke="meta V" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+    <keyboard-shortcut first-keystroke="alt B" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="control B" />
+    <keyboard-shortcut first-keystroke="meta LEFT" />
   </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="control F12" />
@@ -79,6 +108,12 @@
     <keyboard-shortcut first-keystroke="control alt RIGHT" />
     <keyboard-shortcut first-keystroke="control TAB" />
   </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="control alt G" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="PERIOD" />
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="meta PERIOD" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift control N" />
     <keyboard-shortcut first-keystroke="control X" second-keystroke="control F" />
@@ -86,10 +121,15 @@
   <action id="GotoImplementation">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt G" />
+    <keyboard-shortcut first-keystroke="meta G" />
+  </action>
   <action id="GotoTypeDeclaration">
     <keyboard-shortcut first-keystroke="shift control B" />
     <mouse-shortcut keystroke="shift button2" />
   </action>
+  <action id="GuiDesigner.Duplicate" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift control F12" />
     <keyboard-shortcut first-keystroke="control X" second-keystroke="1" />
@@ -98,6 +138,9 @@
     <keyboard-shortcut first-keystroke="control DIVIDE" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="shift H" />
+  </action>
   <action id="NextParameter" />
   <action id="NextSplitter" />
   <action id="NextTemplateParameter" />
@@ -138,11 +181,19 @@
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
   <action id="Switcher" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="control F8" />
+    <keyboard-shortcut first-keystroke="meta F8" />
+  </action>
+  <action id="UpdateFiles">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="shift U" />
+  </action>
   <action id="UsageView.ShowRecentFindUsages">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="B" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="H" />
   </action>
+  <action id="VcsHistory.ShowAllAffected" />
 </keymap>
 

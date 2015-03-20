@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ActionMacroManager">
+    <macro name="replace_gs_w_exp">
+      <action id="EditorToggleCase" />
+      <action id="EditorCopy" />
+      <typing text-keycode="52:1;57:1">$(</typing>
+      <action id="EditorPasteSimple" />
+      <typing text-keycode="48:1">)</typing>
+    </macro>
+  </component>
+</application>
+
