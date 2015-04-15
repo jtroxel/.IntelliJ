@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="JT-Emacs" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="alt C" />
+    <keyboard-shortcut first-keystroke="alt W" />
+    <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="W" />
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift DELETE" />
+    <keyboard-shortcut first-keystroke="alt X" />
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="alt P" />
+    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift control MINUS" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="U" />
+    <keyboard-shortcut first-keystroke="control Z" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="U" />
+    <keyboard-shortcut first-keystroke="control Z" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="control F12" />
+    <keyboard-shortcut first-keystroke="alt S" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control TAB" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift control N" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="control F" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+</keymap>
+

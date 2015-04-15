@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="FileTypeManager" version="11">
-    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;vssver.scc;vssver2.scc;" />
-    <extensionMap />
+    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;*.o;*.obj;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="c" type="C++" />
+      <mapping pattern="cc" type="C++" />
+      <mapping ext="jsx" type="JavaScript" />
+      <mapping pattern="FLICKR_CERBERUS_GQ1_PROD" type="PLAIN_TEXT" />
+      <mapping pattern="run" type="PLAIN_TEXT" />
+      <mapping pattern="cerberus_keystore" type="PLAIN_TEXT" />
+      <mapping pattern="update," type="PLAIN_TEXT" />
+      <mapping pattern="FLICKR_CERBERUS_SSL" type="PLAIN_TEXT" />
+      <mapping pattern="FLICKR_CERBERUS_BF1_PROD" type="PLAIN_TEXT" />
+      <mapping pattern="FLICKR_CERBERUS_BF1_CONFIG" type="PLAIN_TEXT" />
+      <mapping ext="rrd" type="PLAIN_TEXT" />
+      <mapping ext="yicf" type="PLAIN_TEXT" />
+      <mapping ext="sqlite3" type="PLAIN_TEXT" />
+      <mapping ext="run" type="PLAIN_TEXT" />
+      <mapping pattern="tw_config_deploy_test" type="Perl" />
+      <mapping pattern="www_cvs_compile" type="Perl" />
+      <mapping pattern="www_deploy" type="Perl" />
+      <mapping pattern="config_edit_stage" type="Perl" />
+      <mapping pattern="www_stage_phase2" type="Perl" />
+      <mapping pattern="www_stage" type="Perl" />
+      <mapping pattern="www_cvs_compile_child" type="Perl" />
+      <mapping pattern="config_edit_diff" type="Perl" />
+      <mapping pattern="tools_colo_deploy" type="Perl" />
+      <mapping pattern="tw_config_deploy" type="Perl" />
+      <mapping pattern="www_stage2" type="Perl" />
+      <mapping pattern="config_edit_deploy" type="Perl" />
+    </extensionMap>
   </component>
 </application>
 

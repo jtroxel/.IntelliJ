@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
-  <component name="UsagesStatistic" time="0" allowed="false" show-notification="true" period="weekly" />
+  <component name="UsagesStatistic" time="1429122428531" allowed="true" show-notification="false" period="weekly">
+    <group id="JavaScript versions" priority="0.0" data="DEFAULT=1" />
+    <group id="Look and Feel" priority="0.0" data="Mac OS X - Darcula=1" />
+    <group id="compiler" priority="0.0" data="external_build=1" />
+    <group id="file-type" priority="0.0" data="JAVA=1,UNKNOWN=1,IDEA_MODULE=1,HTML=1,XML=1" />
+    <group id="javaScript Scope Usages" priority="0.0" data="Project=2" />
+    <group id="language-level" priority="0.0" data="JDK_1_6=1" />
+    <group id="module type" priority="0.0" data="JAVA_MODULE=1" />
+    <group id="non-bundled-plugins" priority="0.0" data="com.intellij=1" />
+    <group id="run-configuration-type-temp" priority="0.0" data="Application=1" />
+  </component>
 </application>
 
