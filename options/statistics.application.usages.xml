@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="language-level">
+      <project id="appdyn" values="JDK_1_6" />
+    </group>
+    <group name="module type">
+      <project id="appdyn" values="JAVA_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="appdyn" values="HTML,XML,IDEA_MODULE,UNKNOWN,JAVA" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="appdyn" values="Application" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="appdyn" values="DEFAULT" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="appdyn" values="Project,Project" />
+    </group>
+  </component>
+</application>
+
